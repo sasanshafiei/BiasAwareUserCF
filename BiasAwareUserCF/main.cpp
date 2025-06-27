@@ -30,7 +30,7 @@ struct Similarity {
 };
 
 // ------------------- TUNABLE PARAMETERS -------------------
-static const int K = 250;           // Keep top-K neighbors
+static const int K = 300;           // Keep top-K neighbors
 static const double SHRINK = 10.0;  // Significance shrinkage
 static const double AMP_FACTOR = 1.3; // Case amplification exponent (was 1.25)
 static const int NUM_ITERS = 8;     // Iterations for user/item bias refinement (was 5)
